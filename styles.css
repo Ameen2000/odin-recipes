@@ -4,5 +4,53 @@ body {
 
 img {
 	height: auto;
-	width: 480px;
+	width: 30%;
+	float:right;
+}
+
+.hi {
+	width: calc(60% - 16px);
+	display: inline-block;
+}
+
+.burger {
+	height: 400px;
+	width: 310px;
+	background-color: lightblue;
+}
+
+.salad {
+	height: 400px;
+	width: 310px;
+	background-color: lightgreen;
+}
+
+.peach {
+	height: 400px;
+	width: 310px;
+	background-color: salmon;
+}
+
+.burger.link {
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+.salad.link {
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+.peach.link {
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
 }
